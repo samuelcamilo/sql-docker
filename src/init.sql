@@ -1,0 +1,11 @@
+DROP DATABASE Hangfire
+GO
+
+DROP DATABASE Andromeda
+GO
+
+CREATE DATABASE Hangfire
+GO
+
+CREATE DATABASE Andromeda
+GO

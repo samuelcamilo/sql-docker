@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  mssql.database:
+    container_name: 'sql.app'
+    image:  "busessql:v1"
+    environment: 
+       SA_PASSWORD: "S1m2e3l123"
+       ACCEPT_EULA: "y"
+    ports: 
+      - 1433:1433
