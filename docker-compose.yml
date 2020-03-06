@@ -2,8 +2,8 @@ version: '3'
 
 services:
   mssql.database:
-    container_name: 'sql.app'
-    image:  "busessql:v1"
+    container_name: 'sql.dev.app'
+    image:  "busessql:v2"
     environment: 
        SA_PASSWORD: "S1m2e3l123"
        ACCEPT_EULA: "y"
