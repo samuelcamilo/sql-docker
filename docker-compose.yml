@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  mssql.database:
+  mssql.database.dev:
     container_name: 'sql.dev.app'
-    image:  "busessql:v2"
+    image:  "samuelcamilo/busessql:v1"
     environment: 
-       SA_PASSWORD: "S1m2e3l123"
-       ACCEPT_EULA: "y"
+        SA_PASSWORD: "S1m2e3l123"
+        ACCEPT_EULA: "y"
     ports: 
-      - 1433:1433
+      - 1434:1433
